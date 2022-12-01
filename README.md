@@ -49,10 +49,9 @@ Run a container and jump right into the shell
 </br>
 
 ## Notes
-The scripts are losely based on the follwing sources:
+- The final image takes about 9GB of disk space.
 
-https://sinistercode.com/public/donnie/blog/tensorflow-gpu-jupiter
-
-https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
-
-https://docs.docker.com/language/python/build-images/
+- The scripts are losely based on the follwing sources:
+    - https://sinistercode.com/public/donnie/blog/tensorflow-gpu-jupiter
+    - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+    - https://docs.docker.com/language/python/build-images/
