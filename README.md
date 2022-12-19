@@ -1,6 +1,6 @@
 # TensorFlow GPU Jupyter with OpenCV2 and other requirements
 
-A small collections of scripts to build and run a development environment based on the official [TensorFlow Docker Container](https://www.tensorflow.org/install/docker)
+A small collections of scripts to build and run a development environment based on the official [TensorFlow Docker Container](https://www.tensorflow.org/install/docker) and to work with [Google Coral Edge TPU](https://coral.ai/products/)
 
 </br>
 
@@ -55,3 +55,9 @@ Run a container and jump right into the shell
     - https://sinistercode.com/public/donnie/blog/tensorflow-gpu-jupiter
     - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
     - https://docs.docker.com/language/python/build-images/
+
+- For more information about edge TPU check out
+    - https://coral.ai/products/
+    - https://github.com/google-coral/edgetpu
+    - https://github.com/google-coral/examples-camera
+    - https://github.com/google-coral/example-object-tracker

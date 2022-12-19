@@ -12,7 +12,8 @@ print_usage() {
 }
 
 
-image_name="tf-latest-gpu-jupyter-cv2:latest"
+image_name="tf-latest-gpu-jupyter-cv2-edge_tpu:latest"
+
 host_port=8888
 
 
