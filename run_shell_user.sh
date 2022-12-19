@@ -46,6 +46,7 @@ fi
 docker run --rm -it \
    -e DISPLAY=$DISPLAY \
    -e PYTHONUNBUFFERED=1 \
+   -u $(id -u):$(id -g) \
    -v "$HOME/.Xauthority:/root/.Xauthority:ro" \
    -v /tmp/.X11-unix:/tmp/.X11-unix \
    -v $workspace_path:/home/user/workspace \

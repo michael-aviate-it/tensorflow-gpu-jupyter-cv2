@@ -13,6 +13,7 @@ print_usage() {
 
 
 image_name="tf-latest-gpu-jupyter-cv2:latest"
+
 host_port=8888
 
 
